@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+#center {
+	LEFT: 50%; POSITION: absolute; TOP: 50%
+}
+#DHTMLBOOK {
+	BACKGROUND: #000; LEFT: -620px; VISIBILITY: hidden; WIDTH: 682px; POSITION: relative; TOP: -160px; HEIGHT: 450px
+}
+#TXTBOX {
+	FONT-SIZE: 0.8em; WIDTH: 410px; COLOR: #aba193; FONT-FAMILY: verdana; POSITION: absolute; TOP: 320px; TEXT-ALIGN: center
+}
+.page {
+	OVERFLOW: hidden; BORDER-LEFT: #000000 1px solid; WIDTH: 50%; CURSOR: pointer; POSITION: absolute; HEIGHT: 100%
+}
+.right {
+	BORDER-RIGHT: #000000 1px solid; LEFT: 50%
+}
+.turn {
+	BACKGROUND: #000000
+}
+.img {
+	WIDTH: 200%; POSITION: absolute; HEIGHT: 100%
+}
+.d1{
+			background: url("images/HD03.gif");
+			float:left;
+			width:681;
+			height:522;
+			
+}
+.d2{
+	background: url("images/HD04.gif");
+	float:left;
+	width:321;
+	height:519;
+}
+.d3{
+	margin-top:10px;
+	float:left;
+	width:250;
+	margin-left:30px;
+	font-size:27px;
+	font-family: 黑体;
+	font-style: oblique;
+	color: white;
+}
+.tb1{
+	margin-top:50px;
+	margin-left: 23px;
+	width:300px;
+	height:40px;
+	font-size:16px;
+}
+.tb2{
+	margin-top:-1px;
+	margin-left: 23px;
+	width:300px;
+	height:40px;
+	font-size:16px;
+	background:#4e4e4e;
+	
+	
+}
+.log{
+	background-color: #da1f32;
+	font-weight:bold;
+	font-size:22px;
+}
+tr{
+	text-align:justify;
+}
+.d4{
+	float:left;
+	width:250;
+	margin-left:30px;
+	font-size:22px;
+	font-family: 黑体;
+}
+.d5{
+	float:left;
+	width:300px;
+	height:40px;
+	margin-left:23px;
+	font-size:18px;
+	background:#4e4e4e;
+	height:150px;
+	
+}
+.d6{
+	background-color: #da1f32;
+	font-weight:bold;
+	font-size:22px;
+	width:300px;
+	margin-left:23px;
+}
+.d7{
+	margin-left:25px;
+}

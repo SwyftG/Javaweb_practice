@@ -1,0 +1,133 @@
+@CHARSET "UTF-8";
+.xd1 {
+	background: url("../images/HD03.gif");
+	float: left;
+	width: 682px;
+	height: 520px;
+}
+
+.xd2 {
+	background: url("../images/HD04.gif");
+	float: left;
+	width: 320px;
+	height: 520px;
+}
+
+.xd3 {
+	margin-top: 10px;
+	float: left;
+	width: 297px;
+	margin-left: 23px;
+	font-size: 27px;
+	font-family: 黑体;
+	font-style: oblique;
+	color: white;
+}
+
+.xd8 {
+	margin-top: 20px;
+	margin-left: 23px;
+	width: 297px;
+}
+
+.tb1 {
+	height: 30px;
+	width: 297px;
+	font-family: 黑体;
+	font-weight: bold;
+	font-size: 22px;
+	background-color: #da1f32;
+}
+
+.tb2 {
+	width: 297px;
+	height: 150px;
+	font-size: 16px;
+	background: #4e4e4e;
+}
+
+.xd4 {
+	margin-left: 23px;
+	margin-top: -10px;
+	font-family: 黑体;
+	font-weight: bold;
+	font-size: 22px;
+	width: 297px;
+}
+
+.xd5 {
+	margin-left: 23px;
+	font-size: 18px;
+	background: #4e4e4e;
+	height: 130px;
+	width: 297px;
+}
+
+.xd6 {
+	background-color: #da1f32;
+	font-weight: bold;
+	font-size: 22px;
+	width: 297px;
+	margin-left: 23px;
+}
+
+.xd7 {
+	margin-left: 23px;
+}
+
+#player {
+	position: relative;
+	width: 682px;
+	height: 426px;
+	overflow: hidden;
+	margin: 94px auto 0 auto;
+}
+
+#player * {
+	padding: 0;
+	margin: 0;
+}
+
+#player .Limg {
+	position: relative;
+}
+
+#player .Limg li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+#player .Limg li img {
+	border: 0px;
+	width: 682px;
+	height: 426px;
+}
+
+#player .Limg li  p {
+	line-height: 25px;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+#player .Nubbt {
+	position: absolute;
+	z-index: 9;
+	right: 5px;
+	bottom: 3px;
+	line-height: 25px;
+}
+
+#player .Nubbt span {
+	border: 1px solid #7c7c7c;
+	background: #fff;
+	padding: 1px 5px;
+	margin: 0 2px;
+	font-style: normal;
+	cursor: pointer;
+}
+
+#player .Nubbt span.on {
+	background: #7c7c7c;
+}

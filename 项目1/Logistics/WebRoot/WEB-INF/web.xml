@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sguanli</servlet-name>
+    <servlet-class>servlet.Sguanli</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sdtask</servlet-name>
+    <servlet-class>servlet.Sdtask</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SdrvInfo</servlet-name>
+    <servlet-class>servlet.SdrvInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sgdconfirm</servlet-name>
+    <servlet-class>servlet.Sgdconfirm</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Ssuser</servlet-name>
+    <servlet-class>servlet.Ssuser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sadduser</servlet-name>
+    <servlet-class>servlet.Sadduser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sdeluser</servlet-name>
+    <servlet-class>servlet.Sdeluser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sedituser</servlet-name>
+    <servlet-class>servlet.Sedituser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sadminpwd</servlet-name>
+    <servlet-class>servlet.Sadminpwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>llsrcveh</servlet-name>
+    <servlet-class>servlet.llsrcveh</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lladd</servlet-name>
+    <servlet-class>servlet.lladd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lledit</servlet-name>
+    <servlet-class>servlet.lledit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lldel</servlet-name>
+    <servlet-class>servlet.lldel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lvedit</servlet-name>
+    <servlet-class>servlet.lvedit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lvsearch</servlet-name>
+    <servlet-class>servlet.lvsearch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lvadd</servlet-name>
+    <servlet-class>servlet.lvadd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lvsearch2</servlet-name>
+    <servlet-class>servlet.lvsearch2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lvsearch1</servlet-name>
+    <servlet-class>servlet.lvsearch1</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>HaddGyd</servlet-name>
+    <servlet-class>servlet.HaddGyd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HaddReg</servlet-name>
+    <servlet-class>servlet.HaddReg</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HdelGyd</servlet-name>
+    <servlet-class>servlet.HdelGyd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HdelReg</servlet-name>
+    <servlet-class>servlet.HdelReg</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeditGyd</servlet-name>
+    <servlet-class>servlet.HeditGyd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeditReg</servlet-name>
+    <servlet-class>servlet.HeditReg</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HMyserv2</servlet-name>
+    <servlet-class>servlet.HMyserv2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HSelectServlet</servlet-name>
+    <servlet-class>servlet.HSelectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HSelectServlet2</servlet-name>
+    <servlet-class>servlet.HSelectServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HveGyd</servlet-name>
+    <servlet-class>servlet.HveGyd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HveReg</servlet-name>
+    <servlet-class>servlet.HveReg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jadd</servlet-name>
+    <servlet-class>servlet.Jadd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jchange</servlet-name>
+    <servlet-class>servlet.Jchange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jve</servlet-name>
+    <servlet-class>servlet.Jve</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jdel</servlet-name>
+    <servlet-class>servlet.Jdel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jser</servlet-name>
+    <servlet-class>servlet.Jser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jmyserv</servlet-name>
+    <servlet-class>servlet.Jmyserv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jchser</servlet-name>
+    <servlet-class>servlet.Jchser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JveInfo</servlet-name>
+    <servlet-class>servlet.JveInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jveh</servlet-name>
+    <servlet-class>servlet.Jveh</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lvuser</servlet-name>
+    <servlet-class>servlet.lvuser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lvgyd</servlet-name>
+    <servlet-class>servlet.lvgyd</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<servlet-mapping>
+    <servlet-name>HaddGyd</servlet-name>
+    <url-pattern>/servlet/HaddGyd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HaddReg</servlet-name>
+    <url-pattern>/servlet/HaddReg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HdelGyd</servlet-name>
+    <url-pattern>/servlet/HdelGyd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HdelReg</servlet-name>
+    <url-pattern>/servlet/HdelReg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeditGyd</servlet-name>
+    <url-pattern>/servlet/HeditGyd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeditReg</servlet-name>
+    <url-pattern>/servlet/HeditReg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HMyserv2</servlet-name>
+    <url-pattern>/serv2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HSelectServlet</servlet-name>
+    <url-pattern>/selectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HSelectServlet2</servlet-name>
+    <url-pattern>/selectServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HveGyd</servlet-name>
+    <url-pattern>/servlet/HveGyd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HveReg</servlet-name>
+    <url-pattern>/servlet/HveReg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sguanli</servlet-name>
+    <url-pattern>/servlet/Sguanli</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sdtask</servlet-name>
+    <url-pattern>/servlet/Sdtask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SdrvInfo</servlet-name>
+    <url-pattern>/servlet/SdrvInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sgdconfirm</servlet-name>
+    <url-pattern>/servlet/Sgdconfirm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Ssuser</servlet-name>
+    <url-pattern>/servlet/Ssuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sadduser</servlet-name>
+    <url-pattern>/servlet/Sadduser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sdeluser</servlet-name>
+    <url-pattern>/servlet/Sdeluser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sedituser</servlet-name>
+    <url-pattern>/servlet/Sedituser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sadminpwd</servlet-name>
+    <url-pattern>/servlet/Sadminpwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>llsrcveh</servlet-name>
+    <url-pattern>/servlet/llsrcveh</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lladd</servlet-name>
+    <url-pattern>/servlet/lladd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lledit</servlet-name>
+    <url-pattern>/servlet/lledit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lldel</servlet-name>
+    <url-pattern>/servlet/lldel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lvedit</servlet-name>
+    <url-pattern>/servlet/lvedit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lvsearch</servlet-name>
+    <url-pattern>/servlet/lvsearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lvadd</servlet-name>
+    <url-pattern>/servlet/lvadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lvsearch2</servlet-name>
+    <url-pattern>/servlet/lvsearch2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lvsearch1</servlet-name>
+    <url-pattern>/servlet/lvsearch1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jadd</servlet-name>
+    <url-pattern>/servlet/Jadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jchange</servlet-name>
+    <url-pattern>/servlet/Jchange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jve</servlet-name>
+    <url-pattern>/servlet/Jve</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jdel</servlet-name>
+    <url-pattern>/servlet/Jdel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jser</servlet-name>
+    <url-pattern>/servlet/Jser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jmyserv</servlet-name>
+    <url-pattern>/servlet/Jmyserv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jchser</servlet-name>
+    <url-pattern>/servlet/Jchser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JveInfo</servlet-name>
+    <url-pattern>/servlet/JveInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jveh</servlet-name>
+    <url-pattern>/servlet/Jveh</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lvuser</servlet-name>
+    <url-pattern>/servlet/lvuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lvgyd</servlet-name>
+    <url-pattern>/servlet/lvgyd</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
